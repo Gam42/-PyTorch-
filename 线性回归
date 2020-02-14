@@ -1,0 +1,9 @@
+import torch
+a = torch.ones(1000)
+时间比较：pytorch并行计算效率远远高于串行
+基本乘法操作：torch.mm(X, w) + b
+随机数参数方法：
+features = torch.tensor(np.random.normal(0, 1, (num_examples, num_inputs)), dtype=torch.float)
+import torch.optim as optim
+optimizer = optim.SGD(net.parameters(), lr=0.03)梯度下降
+直接使用pytorch实现
